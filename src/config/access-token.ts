@@ -1,6 +1,6 @@
 const accessToken = () => {
   try {
-    return localStorage.getItem('token');
+    return localStorage.getItem('productly');
   } catch (err) {
     return null;
   }
